@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Overpass;
+    src: url(Overpass-VariableFont_wght.ttf);
+}
+
+
+body {
+    margin: 0;
+    font-family: Overpass;
+}
+
+.container {
+    display: flex;
+    background: hsl(216, 12%, 8%);
+    width: 100vw;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.box {
+    background: #1F2631;
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    
+}
+
+
+.texto h2 {
+    color: white;
+}
+
+.texto p {
+    color: hsl(216, 12%, 54%);
+    font-size: 15px;
+}
+
+.circlestar {
+    background: #262E36;
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circlestar img {
+    width: 15px;
+    height: 14px;
+}
